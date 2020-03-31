@@ -65,15 +65,15 @@ Graduated Projects
 Sandbox to Incubation Project Moves
 -----------------------------------
 
-| Project Name                            | Joined Sandbox | Moved to Incubation | New Stage  |
-|-----------------------------------------|----------------|---------------------|------------|
-| [Linkerd](http://linkerd.io/)           | 1/23/17        | 4/6/18              | Incubating |
-| [CoreDNS](http://coredns.io/)           | 2/27/17        | 2/26/18             | Incubating |
-| [Rook](https://rook.io/)                | 1/29/18        | 9/25/18             | Incubating |
-| [Harbor](https://goharbor.io/)          | 7/31/18        | 11/14/18            | Incubating |
-| [OPA](https://www.openpolicyagent.org/) | 3/29/18        | 4/2/19              | Incubating |
-| [CloudEvents](https://cloudevents.io/)  | 5/15/18        | 10/28/19            | Incubating |
-| [Falco](https://falco.org/)             | 10/10/18       | 1/8/20              | Incubating |
+| **Project**                             | **Joined Sandbox** | **Moved to Incubation** | **New Stage** |
+|:---------------------------------------:|:------------------:|:-----------------------:|:-------------:|
+|      [Linkerd](http://linkerd.io/)      |      1/23/17       |         4/6/18          |  Incubating   |
+|      [CoreDNS](http://coredns.io/)      |      2/27/17       |         2/26/18         |  Incubating   |
+|        [Rook](https://rook.io/)         |      1/29/18       |         9/25/18         |  Incubating   |
+|     [Harbor](https://goharbor.io/)      |      7/31/18       |        11/14/18         |  Incubating   |
+| [OPA](https://www.openpolicyagent.org/) |      3/29/18       |         4/2/19          |  Incubating   |
+| [CloudEvents](https://cloudevents.io/)  |      5/15/18       |        10/28/19         |  Incubating   |
+|       [Falco](https://falco.org/)       |      10/10/18      |         1/8/20          |  Incubating   |
 
 Project Audits
 --------------
