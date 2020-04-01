@@ -15,7 +15,7 @@ All exceptions (and "no" outcomes) are handled by the TOC. Possible "no" outcome
 image::sandbox-process.png[Sandbox process]
 
 . *Project Proposal*
-   * Project proposed through a https://github.com/cncf/toc/issues[GitHub issue]
+   * Project proposed through a https://github.com/cncf/toc/pull[GitHub pull request]
    * Template TBD
 . *TOC Triage* _2 weeks for a straightforward referral to a SIG; decline or defer could require more discussion_
    * Performed by any TOC member
