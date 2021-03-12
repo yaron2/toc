@@ -78,7 +78,7 @@ Lei Zhang (Harry)
 
 Incubation
 
-Having built Dapr in conjunction with customers and community who are currently running production workloads, Dapr is ready for incubcation level maturity. 
+Having built Dapr in conjunction with customers, adoptors and the community who are running production workloads, Dapr is ready for incubation level maturity.  
 
 ## License
 
