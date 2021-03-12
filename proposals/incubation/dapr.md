@@ -1,4 +1,4 @@
-# Distributed Application Runtime CNCF Incubation Proposal
+# Distributed Application Runtime CNCF Proposal
 
 ## Name of project
 
@@ -73,17 +73,18 @@ Dapr also integrates with several CNCF projects including;
 
 ## Sponsor from TOC
 
-Lei Zhang (Harry) from Alibaba has agreed to sponsor Dapr
+Lei Zhang (Harry)
 
 ## Preferred maturity level
 
-Incubations
+Incubation
 
 ## License
 
 Currently MIT (https://github.com/dapr/dapr/blob/master/LICENSE) - happy to relicense to Apache2 at donation.
 
 ## Source control
+Dapr is a GitHub organization with several repos 
 
 GitHub: https://github.com/dapr
 
@@ -95,15 +96,18 @@ Currently Dapr uses go 1.15 with the following dependencies:
         
 ## Initial committers (how long working on project, companies they represent)
 
-Initial committers were from Microsoft. Currently 736 committers over the last 16 months, which has grown rapidly over the last year. 
+Initial committers were from Microsoft.
+* Yaron Schneider (@yaron2, Microsoft)
+* Haishi Bai (@Haishi2016, Microsoft)
+* Mark Fussell (@msfussell, Microsoft) 
 
-Dapr is completely developed in the open with transparent community ownership, governance, and contributions. Microsoft has the major of maintainers currently, however there are maintainers and approvers from the community for Dapr repos and we are actively adding more. See https://github.com/orgs/dapr/teams.
+This link https://github.com/orgs/dapr/teams captures the list of Daprs current maintainers and approvers.
 
-Dapr's goal is to be vendor neutral.
+Dapr is completely developed in the open with transparent community ownership, governance, and contributions. Microsoft has the major of maintainers currently, however there are maintainers and approvers from the community for serveral Dapr repos and we are actively adding more. Each repo has a code owners file, for example https://github.com/dapr/dapr/blob/master/CODEOWNERS
 
 ## Infrastructure requests (CI / CNCF Cluster)
 
-We have no infrastructure requests at this time.
+No infrastructure requests at this time.
 
 ## Communication channels (slack, irc, mailing lists)
 See the [Dapr community repo](https://github.com/dapr/community) specifically [communication ](https://github.com/dapr/community#communication)
@@ -117,7 +121,7 @@ See https://github.com/dapr/dapr/issues
 
 ## Website
 
-- Positioning https://dapr.io/
+- Website https://dapr.io/
 - Documentation https://docs.dapr.io/ 
 
 ## Release methodology and mechanics
@@ -125,7 +129,7 @@ See https://github.com/dapr/dapr/issues
 Dapr reached [v1.0 maturity in Feb 2021](https://blog.dapr.io/posts/2021/02/17/announcing-dapr-v1.0/) having worked closely with customers such as Zeiss, Ignition Group and Morgan Stanley as well as partners such as Alibaba. 
 
 ### Milestone release plan
-Each  milestone release plan is tracked with an issue, for example these are the plans from the v1.0 and v1.1 releases.
+Each milestone release plan is tracked with an issue, for example these are the plans from the v1.0 and v1.1 releases.
 - [Milestone release plan v1.0](https://github.com/dapr/dapr/issues/2346)
 - [Milestone release plan v1.1](https://github.com/dapr/dapr/issues/2843) 
 
