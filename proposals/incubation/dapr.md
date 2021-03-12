@@ -52,13 +52,14 @@ Dapr is aligned with the CNCF mission to make cloud native computing ubiquitous 
 
 ## Comparison with similar projects (inside or outside the CNCF), including what differentiates this project
 
-Dapr is a developer focused technology and there is less to compare with in CNCF today. 
+Similar projects outside of CNCF:
 
-[Micro](https://github.com/micro/micro) is a microservices framework that has some similaries to Dapr. A significant difference is that Dapr is a set of APIs that can be used from any language or framework and is incremental in its adoption. Most microservice frameworks today like Micro are restricted to certain languages, require developers to rewrite their code and do not expose a set of common APIs that can be extended by the community.
+- [Micro](https://github.com/micro/micro) is a microservices framework that has some similaries to Dapr. A significant difference is that Dapr is a set of APIs that can be used from any language or framework and is incremental in its adoption. Most microservice frameworks today like Micro are restricted to certain languages, require developers to rewrite their code and do not expose a set of common APIs that can be extended by the community.
 
-- Service meshes such as CNCF **[Linkerd](https://github.com/linkerd/linkerd)** and non-CNCF **[Istio](https://github.com/istio/istio)** both have network routing, security and observability that Dapr also provides. The primary difference between Dapr and service meshes, is that Dapr operates at the layer 7 application level for developers, whereas service meshes operate at the infrastructure networking layer 4 level.
+- Service meshes such as CNCF **[Linkerd](https://github.com/linkerd/linkerd)** and non-CNCF **[Istio](https://github.com/istio/istio)** both have network routing, security and observability that Dapr also provides. The primary difference between Dapr and service meshes is that Dapr operates at the application level by exposing APIs for developers, whereas service meshes operate at the infrastructure networking layer.
 
-- Dapr utilizes many CNCF projects that are developer focused including;
+Dapr integrates with many CNCF projects, including;
+
 - [CloudEvents](https://github.com/cloudevents/spec) for all publish/subscribe events.
 - [gRPC](https://github.com/grpc) for high-performance remote procedure calls (RPC).
 - [SPIFFE](https://github.com/spiffe/spiffe) for identifying and securing communications between application services.
@@ -66,6 +67,7 @@ Dapr is a developer focused technology and there is less to compare with in CNCF
 - [Helm](https://github.com/helm/helm) used to deploy Dapr's control plane to Kubernetes.
 
 Dapr also integrates with several CNCF projects including;
+
 - [Prometheus](https://github.com/prometheus) to collect and analyse metrics. 
 - [Jaeger](https://github.com/jaegertracing/jaeger) for distributed tracing.
 - [NATS](https://github.com/nats-io) as a high performance open source messaging system for cloud native applications.
@@ -83,7 +85,7 @@ Having built Dapr in conjunction with customers and community who are currently 
 
 ## License
 
-Currently MIT (https://github.com/dapr/dapr/blob/master/LICENSE) - happy to relicense to Apache2 at donation.
+Currently MIT (https://github.com/dapr/dapr/blob/master/LICENSE) - happy to relicense to Apache2.0 at donation.
 
 ## Source control
 Dapr is a GitHub organization with several repos 
