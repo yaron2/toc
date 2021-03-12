@@ -64,10 +64,7 @@ Dapr integrates with many CNCF projects, including;
 - **[gRPC](https://github.com/grpc)** for high-performance remote procedure calls (RPC).
 - **[SPIFFE](https://github.com/spiffe/spiffe)** for identifying and securing communications between application services.
 - **[Open Telemetry](https://github.com/open-telemetry)** to generate, collect, and export telemetry data.
-- **[Helm](https://github.com/helm/helm**) used to deploy Dapr's control plane to Kubernetes.
-
-Dapr also integrates with several CNCF projects including;
-
+- **[Helm](https://github.com/helm/helm)** used to deploy Dapr's control plane to Kubernetes.
 - **[Prometheus](https://github.com/prometheus)** to collect and analyse metrics. 
 - **[Jaeger](https://github.com/jaegertracing/jaeger)** for distributed tracing.
 - **[NATS](https://github.com/nats-io)** as a high performance open source messaging system for cloud native applications.
@@ -117,6 +114,7 @@ Other initial committers who are in Alumni status:
 * Aman Bhardwaj (Microsoft)
 * Shalabh Mohan Shrivastava (Microsoft)
 * Leon Mai (Microsoft)
+* Young Bu Park (Microsoft)
 
 This link https://github.com/orgs/dapr/teams captures the list of Dapr's current maintainers and approvers.
 
@@ -173,11 +171,13 @@ YouTube channel: https://www.youtube.com/channel/UCtpSQ9BLB_3EXdWAUQYwnRA
 
 ## Community size and any existing sponsorship
 
-Currently 736 contributors over the last 16 months, which has grown rapidly over the last year. This include contributors from Alibaba, Disney, Zeiss, Morgan Stanley, Citigroup and Hashicorp. The community has developed and contributed over 70 components for state management (such as Redis, MySQL,and many more), Pub/Sub messaging (such as RabbitMQ, AWS SNS/SQS, Kafka), secret stores (such as Kubernetes secret store, Azure Key Vault, HashiCorp Vault, and more) and both input and output bindings to integrate with services such as SendGrid, Twilio and Twitter.
+Currently 736 contributors over the last 16 months, which has grown rapidly over the last year. This include contributors from Microsoft, Alibaba, Disney, Zeiss, Morgan Stanley, Citigroup, New Relic, Dynatrace and Hashicorp.
+
+The community has developed and contributed over 70 components for state management (such as Redis, MySQL,and many more), Pub/Sub messaging (such as RabbitMQ, AWS SNS/SQS, Kafka), secret stores (such as Kubernetes secret store, Azure Key Vault, HashiCorp Vault, and more) and both input and output bindings to integrate with services such as SendGrid, Twilio and Twitter.
 
 The Dapr Github repo currently has 11.7k stars.
 
-As for sponsorship, Microsoft currently pays for the project’s GitHub, infrastructure for testing, Website hosting and Docker repos.
+As for sponsorship, Microsoft currently pays for the project’s GitHub, infrastructure for testing/releases, website hosting and Docker repos.
 
 ## Who is currently known to be using the project? Are they using it in production and at what scale? (It may be hard to obtain accurate data for this, but any supporting evidence of usage is helpful)
 
