@@ -24,7 +24,7 @@ Dapr exposes its APIs as a sidecar architecture, either as a container or as a p
 
 Dapr can be hosted in multiple environments, including self hosted for local development, a group of VMs, and Kubernetes. Dapr has a control plane that is deployed and integrated with the hosting environment, with Kubernetes currently being the preferred choice for production workloads.  
 
-Dapr released as a v1.0 project in Feb 2021 and has achieved the stability and enterprise readiness to be designated production ready. Dapr is used in production today by customers. 
+Dapr released as a v1.0 project in Feb 2021 and has achieved the stability and enterprise readiness to be designated production ready. Dapr is used in production today by multiple companies. 
 
 ### Features
 
@@ -54,24 +54,24 @@ Dapr is aligned with the CNCF mission to make cloud native computing ubiquitous 
 
 Similar projects outside of CNCF:
 
-- [Micro](https://github.com/micro/micro) is a microservices framework that has some similaries to Dapr. A significant difference is that Dapr is a set of APIs that can be used from any language or framework and is incremental in its adoption. Most microservice frameworks today like Micro are restricted to certain languages, require developers to rewrite their code and do not expose a set of common APIs that can be extended by the community.
+- **[Micro](https://github.com/micro/micro)** is a microservices framework that has some similaries to Dapr. A significant difference is that Dapr is a set of APIs that can be used from any language or framework and is incremental in its adoption. Most microservice frameworks today like Micro are restricted to certain languages, require developers to rewrite their code and do not expose a set of common APIs that can be extended by the community.
 
 - Service meshes such as CNCF **[Linkerd](https://github.com/linkerd/linkerd)** and non-CNCF **[Istio](https://github.com/istio/istio)** both have network routing, security and observability that Dapr also provides. The primary difference between Dapr and service meshes is that Dapr operates at the application level by exposing APIs for developers, whereas service meshes operate at the infrastructure networking layer.
 
 Dapr integrates with many CNCF projects, including;
 
-- [CloudEvents](https://github.com/cloudevents/spec) for all publish/subscribe events.
-- [gRPC](https://github.com/grpc) for high-performance remote procedure calls (RPC).
-- [SPIFFE](https://github.com/spiffe/spiffe) for identifying and securing communications between application services.
-- [Open Telemetry](https://github.com/open-telemetry) to generate, collect, and export telemetry data.
-- [Helm](https://github.com/helm/helm) used to deploy Dapr's control plane to Kubernetes.
+- **[CloudEvents](https://github.com/cloudevents/spec)** for all publish/subscribe events.
+- **[gRPC](https://github.com/grpc)** for high-performance remote procedure calls (RPC).
+- **[SPIFFE](https://github.com/spiffe/spiffe)** for identifying and securing communications between application services.
+- **[Open Telemetry](https://github.com/open-telemetry)** to generate, collect, and export telemetry data.
+- **[Helm](https://github.com/helm/helm**) used to deploy Dapr's control plane to Kubernetes.
 
 Dapr also integrates with several CNCF projects including;
 
-- [Prometheus](https://github.com/prometheus) to collect and analyse metrics. 
-- [Jaeger](https://github.com/jaegertracing/jaeger) for distributed tracing.
-- [NATS](https://github.com/nats-io) as a high performance open source messaging system for cloud native applications.
-- [KEDA](https://github.com/kedacore/keda) for fine-grained autoscaling on Kubernetes.
+- **[Prometheus](https://github.com/prometheus)** to collect and analyse metrics. 
+- **[Jaeger](https://github.com/jaegertracing/jaeger)** for distributed tracing.
+- **[NATS](https://github.com/nats-io)** as a high performance open source messaging system for cloud native applications.
+- **[KEDA](https://github.com/kedacore/keda)** for fine-grained autoscaling on Kubernetes.
 
 ## Sponsor from TOC
 
@@ -100,10 +100,23 @@ Currently Dapr uses go 1.15 with the following dependencies:
         
 ## Initial committers (how long working on project, companies they represent)
 
-Initial committers were from Microsoft.
-* Yaron Schneider (@yaron2, Microsoft)
-* Haishi Bai (@Haishi2016, Microsoft)
-* Mark Fussell (@msfussell, Microsoft) 
+Current maintainers:
+* Yaron Schneider (Microsoft)
+* Mark Fussell (Microsoft)
+* Rob Landers (Automattic)
+* Sky Xiaojian (Alibaba Cloud)
+* Artur Souza (Microsoft)
+* Ryan Nowak (Microsoft)
+* Mukundan Sundar (Microsoft)
+* Charlie Stanley (Microsoft)
+* Aaron Crawfis (Microsoft)
+* Ori Zohar (Microsoft)
+
+Other initial committers who are in Alumni status:
+* Haishi Bai (Microsoft)
+* Aman Bhardwaj (Microsoft)
+* Shalabh Mohan Shrivastava (Microsoft)
+* Leon Mai (Microsoft)
 
 This link https://github.com/orgs/dapr/teams captures the list of Dapr's current maintainers and approvers.
 
@@ -127,10 +140,11 @@ See https://github.com/dapr/dapr/issues
 
 - Website https://dapr.io/
 - Documentation https://docs.dapr.io/ 
+- Blog https://blog.dapr.io/posts 
 
 ## Release methodology and mechanics
 
-Dapr reached [v1.0 maturity in Feb 2021](https://blog.dapr.io/posts/2021/02/17/announcing-dapr-v1.0/) having worked closely with customers such as Zeiss, Ignition Group and Morgan Stanley as well as partners such as Alibaba. 
+Dapr reached [v1.0 maturity in Feb 2021](https://blog.dapr.io/posts/2021/02/17/announcing-dapr-v1.0/) having worked closely with customers such as Zeiss, Ignition Group and Morgan Stanley as well as adopters such as Alibaba. 
 
 ### Milestone release plan
 Each milestone release plan is tracked with an issue, for example these are the plans from the v1.0 and v1.1 releases.
@@ -144,19 +158,24 @@ Each release endgame plan is tracked with an issue, for example this is the rele
 
  - [Milestone release endgame v1.0](https://github.com/dapr/dapr/issues/2724)
 
-The endgame tracks the steps to cut a supported release, which can go through a number of release candidates (RCs) during the endgame phase. The RCs are opportunities for customers in production and community members to raise any issues that they encounter.
+The endgame tracks the steps to cut a supported release, which can go through a number of release candidates (RCs) during the endgame phase. The RCs are opportunities for users in production and community members to raise any issues that they encounter.
 
 Dapr has a versioning policy for releases which is described in the [Versioning policy](https://docs.dapr.io/operations/support/support-versioning/) documentation.
 
 Dapr has a rolling window of supported releases. Dapr's supported release policy is described in the [Supported releases](https://docs.dapr.io/operations/support/support-release-policy/) documentation. 
 
+This [engineering release decision record](https://github.com/dapr/dapr/blob/e6477d9fb05cbc647d17bd4bf2b593a61290853b/docs/decision_records/engineering/ENG-002-Dapr-Release.MD) outlines the methodology and mechanics
+
 ## Social media accounts
 
 Twitter: @daprdev
+YouTube channel: https://www.youtube.com/channel/UCtpSQ9BLB_3EXdWAUQYwnRA
 
 ## Community size and any existing sponsorship
 
-Currently 736 committers over the last 16 months, which has grown rapidly over the last year. This include committers from Alibaba, Disney, Zeiss, Morgan Stanley, Citigroup and Hashicorp. The community has developed and contributed over 70 components for state management (such as Redis, MySQL,and many more), Pub/Sub messaging (such as RabbitMQ, AWS SNS/SQS, Kafka), secret stores (such as Kubernetes secret store, Azure Key Vault, HashiCorp Vault, and more) and both input and output bindings to integrate with services such as SendGrid, Twilio and Twitter.
+Currently 736 contributors over the last 16 months, which has grown rapidly over the last year. This include contributors from Alibaba, Disney, Zeiss, Morgan Stanley, Citigroup and Hashicorp. The community has developed and contributed over 70 components for state management (such as Redis, MySQL,and many more), Pub/Sub messaging (such as RabbitMQ, AWS SNS/SQS, Kafka), secret stores (such as Kubernetes secret store, Azure Key Vault, HashiCorp Vault, and more) and both input and output bindings to integrate with services such as SendGrid, Twilio and Twitter.
+
+The Dapr Github repo currently has 11.7k stars.
 
 As for sponsorship, Microsoft currently pays for the project’s GitHub, infrastructure for testing, Website hosting and Docker repos.
 
@@ -165,12 +184,14 @@ As for sponsorship, Microsoft currently pays for the project’s GitHub, infrast
 Dapr has customers running in production with the v1.0 release. Publicly announced ones include; 
 
 - [ZEISS](https://customers.microsoft.com/en-us/story/1336089737047375040-zeiss-accelerates-cloud-first-development-on-azure-and-streamlines-order-processing), an international technology leader in optics and opto-electronics. Their solution is deployed to multiple regions in Microsoft Azure.
+
 - [Ignition Group](https://customers.microsoft.com/en-us/story/1335733425802443016-ignition-group-speeds-development-and-payment-processing-using-dapr-and-azure) a South Africa–based technology business focusing on customer engagement that builds sales-support tools and value-added services for telcos. Their solution is deployed to multiple regions in Microsoft Azure.
+
 - [Roadwork](https://blog.dapr.io/posts/2021/02/09/running-dapr-in-production-at-roadwork/) a company the enables customers to gain actionable insights from their data. 
 
-Others customers references can be provided who can talk about their projects under a non-disclosure agreement that we have worked with over the last year. 
+Others adopter references can be provided who can talk about their projects under a non-disclosure agreement that we have worked with over the last year. 
 
-Dapr is used in Alibaba Cloud where Dapr in their serverless infrastructure project. 
+Dapr is used by Alibaba Cloud in their serverless infrastructure project. 
 
 As part of the Dapr v1.0 release, Dapr focused on [production readiness](https://blog.dapr.io/posts/2021/02/17/announcing-dapr-v1.0/#release-highlights), in areas such as performance, security, High Availability (HA), conformance testing and end-to-end scenario testing.
 
