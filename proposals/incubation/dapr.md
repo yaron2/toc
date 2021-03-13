@@ -48,7 +48,7 @@ Although Dapr can be used with localhost HTTP or gRPC calls, language SDKs provi
 
 ## Statement on alignment with CNCF charter mission
 
-Dapr is aligned with the CNCF mission to make cloud native computing ubiquitous for developers. Dapr enables developers to build scalable, cloud native applications faster and  makes them portable across different clouds, bringing true multi-cloud experience to application development. Dapr is a community-led project that has an open governance charter with a large and rapidly growing community. Dapr utilizes and integrates with several existing CNCF technolgies and is an ideal fit with the cloud native serverless ecosystem which is why we are donating it to the CNCF.
+Dapr is aligned with the CNCF mission to make cloud native computing ubiquitous for developers. Dapr enables developers to build scalable, cloud native applications faster and  makes them portable across different clouds, bringing true multi-cloud experience to application development. Dapr is a community-led project that has an open governance charter with a large and rapidly growing community. Dapr utilizes and integrates with several existing CNCF technolgies and is an ideal fit with the cloud native serverless ecosystem which is why we are seeking to have Dapr join the CNCF.
 
 ## Comparison with similar projects (inside or outside the CNCF), including what differentiates this project
 
