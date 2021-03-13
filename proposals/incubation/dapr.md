@@ -108,6 +108,7 @@ Current maintainers:
 * Charlie Stanley (Microsoft)
 * Aaron Crawfis (Microsoft)
 * Ori Zohar (Microsoft)
+* Mark Chmarny (Apple) 
 
 Other initial committers who are in Alumni status:
 * Haishi Bai (Microsoft)
