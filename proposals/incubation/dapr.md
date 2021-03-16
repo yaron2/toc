@@ -143,8 +143,6 @@ k8s.io/code-generator Apache 2.0
 k8s.io/klog Apache 2.0
 k8s.io/metrics Apache 2.0
 sigs.k8s.io/controller-runtime Apache 2.0
-
-**TODO** - Yaron to add
         
 ## Initial committers (how long working on project, companies they represent)
 
