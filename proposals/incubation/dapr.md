@@ -216,7 +216,7 @@ This [engineering release decision record](https://github.com/dapr/dapr/blob/e64
 
 ## Social media accounts
 
-Twitter: @daprdev
+Twitter: [@daprdev](https://twitter.com/daprdev) <br>
 YouTube channel: https://www.youtube.com/channel/UCtpSQ9BLB_3EXdWAUQYwnRA
 
 ## Community size and any existing sponsorship
