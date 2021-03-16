@@ -93,56 +93,56 @@ GitHub: https://github.com/dapr
 
 Dapr uses Go 1.16 with the following dependencies:
 
-contrib.go.opencensus.io/exporter/prometheus Apache 2.0
-contrib.go.opencensus.io/exporter/zipkin Apache 2.0
-github.com/AdhityaRamadhanus/fasthttpcors MIT
-github.com/PuerkitoBio/purell BSD-3 Clause
-github.com/agrea/ptr MIT
-github.com/cenkalti/backoff/v4 MIT
-github.com/dapr/components-contrib MIT
-github.com/fasthttp/router BSD-3 Clause
-github.com/fsnotify/fsnotify BSD-3 Clause
-github.com/ghodss/yaml MIT
-github.com/golang/protobuf BSD-3 Clause
-github.com/google/go-cmp BSD-3 Clause
-github.com/google/uuid BSD-3 Clause
-github.com/gorilla/mux BSD-3 Clause
-github.com/grpc-ecosystem/go-grpc-middleware Apache 2.0
-github.com/hashicorp/go-hclog MIT
-github.com/hashicorp/go-msgpack BSD-3 Clause
-github.com/hashicorp/raft MPL-2.0
-github.com/hashicorp/raft-boltdb MPL-2.0
-github.com/json-iterator/go MIT
-github.com/kelseyhightower/envconfig MIT
-github.com/minio/blake2b-simd Apache 2.0
-github.com/mitchellh/mapstructure MIT
-github.com/nats-io/nats-streaming-server Apache 2.0
-github.com/openzipkin/zipkin-go Apache 2.0
-github.com/phayes/freeport BSD-3 Clause
-github.com/pkg/errors BSD-2 Clause
-github.com/prometheus/client_golang Apache 2.0
-github.com/prometheus/client_model Apache 2.0
-github.com/prometheus/common Apache 2.0
-github.com/sendgrid/rest MIT
-github.com/sirupsen/logrus MIT
-github.com/stretchr/testify MIT
-github.com/valyala/fasthttp MIT
-go.opencensus.io Apache 2.0
-go.opentelemetry.io/otel Apache 2.0
-go.uber.org/atomic MIT
-google.golang.org/genproto Apache 2.0
-google.golang.org/grpc Apache 2.0
-google.golang.org/protobuf BSD-3 Clause
-gopkg.in/yaml.v2 Apache 2.0
-k8s.io/api Apache 2.0
-k8s.io/apiextensions-apiserver Apache 2.0
-k8s.io/apimachinery Apache 2.0
-k8s.io/cli-runtime Apache 2.0
-k8s.io/client-go Apache 2.0
-k8s.io/code-generator Apache 2.0
-k8s.io/klog Apache 2.0
-k8s.io/metrics Apache 2.0
-sigs.k8s.io/controller-runtime Apache 2.0
+- contrib.go.opencensus.io/exporter/prometheus Apache 2.0
+- contrib.go.opencensus.io/exporter/zipkin Apache 2.0
+- github.com/AdhityaRamadhanus/fasthttpcors MIT
+- github.com/PuerkitoBio/purell BSD-3 Clause
+- github.com/agrea/ptr MIT
+- github.com/cenkalti/backoff/v4 MIT
+- github.com/dapr/components-contrib MIT
+- github.com/fasthttp/router BSD-3 Clause
+- github.com/fsnotify/fsnotify BSD-3 Clause
+- github.com/ghodss/yaml MIT
+- github.com/golang/protobuf BSD-3 Clause
+- github.com/google/go-cmp BSD-3 Clause
+- github.com/google/uuid BSD-3 Clause
+- github.com/gorilla/mux BSD-3 Clause
+- github.com/grpc-ecosystem/go-grpc-middleware Apache 2.0
+- github.com/hashicorp/go-hclog MIT
+- github.com/hashicorp/go-msgpack BSD-3 Clause
+- github.com/hashicorp/raft MPL-2.0
+- github.com/hashicorp/raft-boltdb MPL-2.0
+- github.com/json-iterator/go MIT
+- github.com/kelseyhightower/envconfig MIT
+- github.com/minio/blake2b-simd Apache 2.0
+- github.com/mitchellh/mapstructure MIT
+- github.com/nats-io/nats-streaming-server Apache 2.0
+- github.com/openzipkin/zipkin-go Apache 2.0
+- github.com/phayes/freeport BSD-3 Clause
+- github.com/pkg/errors BSD-2 Clause
+- github.com/prometheus/client_golang Apache 2.0
+- github.com/prometheus/client_model Apache 2.0
+- github.com/prometheus/common Apache 2.0
+- github.com/sendgrid/rest MIT
+- github.com/sirupsen/logrus MIT
+- github.com/stretchr/testify MIT
+- github.com/valyala/fasthttp MIT
+- go.opencensus.io Apache 2.0
+- go.opentelemetry.io/otel Apache 2.0
+- go.uber.org/atomic MIT
+- google.golang.org/genproto Apache 2.0
+- google.golang.org/grpc Apache 2.0
+- google.golang.org/protobuf BSD-3 Clause
+- gopkg.in/yaml.v2 Apache 2.0
+- k8s.io/api Apache 2.0
+- k8s.io/apiextensions-apiserver Apache 2.0
+- k8s.io/apimachinery Apache 2.0
+- k8s.io/cli-runtime Apache 2.0
+- k8s.io/client-go Apache 2.0
+- k8s.io/code-generator Apache 2.0
+- k8s.io/klog Apache 2.0
+- k8s.io/metrics Apache 2.0
+- sigs.k8s.io/controller-runtime Apache 2.0
         
 ## Initial committers (how long working on project, companies they represent)
 
